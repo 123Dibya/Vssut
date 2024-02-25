@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:#070F2B;
+  
+}
+span{
+
+    position: relative;
+    top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: 900;
+    color:white;
+}
+p{
+    position: relative;
+    top:420px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color:white;
+    font-weight: 900;
+}
+.you1{
+    border-radius: 6px;
+    position:relative;
+    top:100px;
+    left:700px;
+    width:90px;
+    height:50px;
+    box-shadow: 0 0 5px cyan, 0 0 15px cyan;
+
+}
+.img{
+    display: flex;
+    position:relative;
+    left:600px;
+    bottom:50px;
+    height:350px;
+    width:320px;
+    border: 5px solid white;
+    border-radius: 9px;
+
+    
+}
+/* .you1:hover{
+
+    box-shadow: 0,0,5px,cyan, 0 0 25px cyan, 0 0 50px cyan ,0 0 100px cyan, 0 0 200px;
+} */
+a{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+.img{
+
+    background-image: url("thanks.jpg");
+    background-size: cover;
+}

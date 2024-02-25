@@ -1,0 +1,254 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+
+    background-color:#070F2B;
+    
+      
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+      
+}
+.bar a{
+
+    text-decoration:underline;
+    color:white;
+    font-size: medium;
+    font-weight: 900;
+}
+header{
+    font-size:xx-large;
+    color: white;
+    font-weight: 900;
+    font-family: 'Poppins',sans-serif;
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar{
+
+    margin-right: 70px;
+}
+/* #nav{
+        background-color:#5fe7c2c5; 
+        height:80px;
+        color:white;
+       
+       
+    } */
+/* a{ 
+    color:#265073;
+    
+    margin-left:350px; 
+} */
+#im1{
+
+    height:1000px;
+    width:2000px;
+}
+h1{
+
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin:200px;
+}
+
+.tdomain{
+        background-color: #9290C3;
+        color:black;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height:250px;
+        width:1200px;
+        text-align:right;
+        padding-top: 80px;
+        border-radius: 20px;
+        padding-right:100px;
+        border:4px solid white;
+        margin-left:200px;
+    }
+.inside{
+            position:relative;
+            bottom: 200px;
+            left:10px;
+            margin-right: 500px;
+            height:200px;
+            width:300px;
+            border: 3px solid white;
+            border-radius: 30px;
+            background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-size: cover;
+
+}
+
+.you1{
+
+    position:relative;
+    bottom:4px;
+    right:-4.0px;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+
+}
+.you1:hover{
+
+    box-shadow: 0,0,5px,cyan, 0 0 25px cyan, 0 0 50px cyan ,0 0 100px cyan, 0 0 200px;
+}
+
+
+
+
+.tube-body-1{
+
+    width:100%;
+    height:100vh;
+    background: #070F2B;
+    font-family: 'roboto',sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.card-1{
+
+    width:1400px;
+    height:700px;
+    border-radius: 10px;
+    overflow: hidden; 
+    border: 8px solid #ffff;
+    position: relative;
+}
+.card-img-1
+{
+
+   width:100%;
+   height:100%;
+   object-fit: cover;
+   border-radius: 15px;
+}
+
+.card-body-1{
+        width:100%;
+        height:100%;
+        top:0;
+        right:-100%;
+        position:absolute;
+        background: #1f3d4748;
+        backdrop-filter: blur(5px);
+        border-radius:15px;
+        color:azure;
+        padding:30px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: 2s;
+}
+
+.card-title-1{
+
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.card-sub-title-1{
+
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.card-info-1{
+
+    font-size: 19px;
+    line-height:25px;
+    margin:40px 0;
+    font-weight: 500;
+}
+.card-btn-1{
+
+    width:120px;
+    color:aliceblue;
+    background-color: rgba(0, 255, 255, 0.404);
+    padding:10px 20px;
+    border-radius:5px;
+    text-transform: capitalize;
+    border:none;
+    outline: none;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.card-1:hover .card-body-1{
+    right:0;
+}
+
+.event{
+
+    margin-left:300px;
+    position: relative;
+    bottom:170px;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'roboto',sans-serif;
+    color:white;
+    height:150px;
+    width:100%;
+   text-align:center;
+}
+
+#pp{
+
+    color:#f4f4f4f4;
+    font-size:large;
+    font-weight: 500;
+    font-family:'roboto', sans-serif;
+    background-color: #070F2B;
+    height:150px;
+    width:100%;
+    text-align:center;
+}
+.wings{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:underline;
+    color:white;
+    font-size: medium;
+    font-weight: 900;
+}
+
+.eco{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.system{
+    font-size: larger;
+    font-family: 'roboto',sans-serif;
+    font-weight: 700;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.last{
+
+    text-align: center;
+    color: white;
+    font-size:large;
+    font-weight: 900;
+    height:135px;
+    width:100%;
+    background: #0F172A;
+}
